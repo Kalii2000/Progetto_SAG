@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+footer {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  background-color: #edf7fa;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+}
+section > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.section_1 {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  margin: 0rem 0.6rem 0.6rem 0.6rem;
+}
+.section_1 > h1 {
+  font-size: 22px;
+  padding-left: 20px;
+  margin-top: 12px;
+}
+.section_1 p {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 22px;
+  margin-top: 12px;
+}
+
+.section_2 {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  margin: 0.6rem;
+}
+.section_2 > h1 {
+  font-size: 22px;
+  padding-left: 20px;
+  margin-top: 12px;
+}
+.article_1 {
+  padding-bottom: 10px;
+}
+.section_2 p {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 22px;
+  margin-top: 12px;
+}
+
+div img {
+  border-radius: 6px;
+  margin: 0px 1rem 0px 1rem;
+}
+.main_2 > p {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.main_2 h2,
+.article_2 {
+  font-size: 24px;
+  margin: 0.5rem 1.5rem 0rem 1rem;
+}
+.botton {
+  display: flex;
+  gap: 1em;
+  padding-left: 1em;
+  color: white;
+}
+.botton p:nth-child(1) {
+  background-color: #142850;
+  border-radius: 16px;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+.botton p:nth-child(2) {
+  background-color: #00a8cc;
+  border-radius: 16px;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+hr {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1em;
+  border: 0.1px solid #e0e0e0;
+}
