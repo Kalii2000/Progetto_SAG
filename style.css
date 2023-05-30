@@ -76,6 +76,9 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+footer div img {
+  padding: 0rem 1rem;
+}
 
 section {
   background-color: #edf7fa;
@@ -167,4 +170,7 @@ hr {
   margin-right: 1rem;
   margin-top: 1em;
   border: 0.1px solid #e0e0e0;
+}
+.main_work_2 {
+  display: none;
 }
