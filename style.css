@@ -177,7 +177,14 @@ hr {
   margin-top: 1em;
   border: 0.1px solid #e0e0e0;
 }
-.main_work_2 {
+.main_work_2,
+.main_work_3 {
+  display: none;
+}
+.main_2 hr:nth-child(3) {
+  display: none;
+}
+.main_2 hr:nth-child(5) {
   display: none;
 }
 @media only screen and (min-width: 1200px) {
@@ -294,5 +301,11 @@ hr {
     flex-direction: row;
     justify-content: left;
     padding-left: 16px;
+  }
+  .main_2 hr:nth-child(3) {
+    display: block;
+  }
+  .main_2 hr:nth-child(5) {
+    display: block;
   }
 }
