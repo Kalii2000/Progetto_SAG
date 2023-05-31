@@ -275,6 +275,7 @@ hr {
   .main_2 {
     display: flex;
     flex-direction: column;
+    padding: 0 160px;
   }
   .image_design {
     border-radius: 6px;
@@ -284,5 +285,14 @@ hr {
   }
   hr {
     margin-bottom: 15px;
+  }
+  .botton {
+    padding-left: 0%;
+  }
+  .main_2 > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 16px;
   }
 }
